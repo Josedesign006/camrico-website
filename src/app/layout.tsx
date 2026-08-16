@@ -11,11 +11,11 @@ import { Cursor } from "@/components/layout/Cursor";
 const THEME_INIT = `(function(){try{var t=localStorage.getItem('theme');if(t!=='light'){t='dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();`;
 
 export const metadata: Metadata = {
-  title: "Slate — A complete presentation studio for your screen",
+  title: "Camrico — A complete presentation studio for your screen",
   description:
     "Record your Mac, shape every movement, clean up the sound, and export a polished video without opening a traditional editor. Built for macOS.",
   openGraph: {
-    title: "Slate — A complete presentation studio for your screen",
+    title: "Camrico — A complete presentation studio for your screen",
     description:
       "Record your Mac, shape every movement, clean up the sound, and export a polished video without opening a traditional editor.",
     type: "website",

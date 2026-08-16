@@ -97,7 +97,7 @@ export function TimelineEditor() {
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src="/lastbanner-poster.webp"
-                  alt="Slate editor walkthrough"
+                  alt="Camrico editor walkthrough"
                   className="aspect-[1152/744] w-full object-cover"
                 />
               ) : (
@@ -111,7 +111,7 @@ export function TimelineEditor() {
                   loop
                   playsInline
                   preload="metadata"
-                  aria-label="Slate editor walkthrough"
+                  aria-label="Camrico editor walkthrough"
                   onLoadedMetadata={(e) =>
                     setDuration(e.currentTarget.duration || 15)
                   }

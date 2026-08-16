@@ -1,17 +1,17 @@
 import type { NavItem } from "@/types";
 
 export const site = {
-  name: "Slate",
+  name: "Camrico",
   tagline: "A complete presentation studio for your screen.",
   // Self-hosted app package — direct download, no external redirect.
   download: {
-    href: "/Screen-Presenter.dmg",
-    fileName: "Screen-Presenter.dmg",
+    href: "/Camrico.dmg",
+    fileName: "Camrico.dmg",
     label: "Download for Mac",
     macOS: "macOS 14 Sonoma or later",
     silicon: "Universal — Apple Silicon & Intel",
-    size: "4.0 MB",
-    version: "1.1",
+    size: "10 MB",
+    version: "1.4",
   },
   demoHref: "#demo",
 } as const;

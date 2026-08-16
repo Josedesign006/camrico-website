@@ -109,7 +109,7 @@ export function HeroScene() {
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 src="/hero-banner-poster.webp"
-                alt="Slate screen recording preview"
+                alt="Camrico screen recording preview"
                 className="h-full w-full object-cover"
               />
             ) : (
@@ -122,7 +122,7 @@ export function HeroScene() {
                 loop
                 playsInline
                 preload="metadata"
-                aria-label="Slate screen recording preview"
+                aria-label="Camrico screen recording preview"
               />
             )}
           </div>

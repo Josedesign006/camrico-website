@@ -217,7 +217,7 @@ export function CaptureModes() {
         </Reveal>
 
         <Reveal index={2} className="mt-6">
-          <WindowChrome title="Screen Presenter" bodyClassName="p-5 sm:p-7">
+          <WindowChrome title="Camrico" bodyClassName="p-5 sm:p-7">
             <AnimatePresence mode="wait">
               <motion.div
                 key={active}
