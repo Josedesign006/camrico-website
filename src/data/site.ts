@@ -3,9 +3,13 @@ import type { NavItem } from "@/types";
 export const site = {
   name: "Camrico",
   tagline: "A complete presentation studio for your screen.",
-  // Self-hosted app package — direct download, no external redirect.
+  // Always serves the newest build from GitHub Releases.
+  // `/releases/latest/download/<asset>` redirects to the latest release's asset,
+  // so publishing a new release updates the download with no redeploy.
+  // IMPORTANT: every future release MUST name its .dmg asset exactly
+  // "Camrico.dmg" or this URL will 404.
   download: {
-    href: "/Camrico.dmg",
+    href: "https://github.com/Josedesign006/camrico-website/releases/latest/download/Camrico.dmg",
     fileName: "Camrico.dmg",
     label: "Download for Mac",
     macOS: "macOS 14 Sonoma or later",
