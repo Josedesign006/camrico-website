@@ -21,6 +21,23 @@ const config: Config = {
           blue: "var(--accent-blue)",
           success: "var(--accent-success)",
         },
+        ink: {
+          DEFAULT: "var(--ink)",
+          2: "var(--ink-2)",
+          3: "var(--ink-3)",
+        },
+        sky: {
+          deep: "var(--sky-deep)",
+          mid: "var(--sky-mid)",
+          soft: "var(--sky-soft)",
+          haze: "var(--sky-haze)",
+        },
+        grass: {
+          light: "var(--grass-light)",
+          mid: "var(--grass-mid)",
+          deep: "var(--grass-deep)",
+          shade: "var(--grass-shade)",
+        },
       },
       borderColor: {
         subtle: "var(--border-subtle)",
@@ -39,6 +56,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        serif: ["var(--font-serif)", "Georgia", "serif"],
         mono: ["var(--font-mono)", "ui-monospace", "monospace"],
       },
       maxWidth: {

@@ -33,3 +33,6 @@ next-env.d.ts
 .claude/
 .vscode/
 .idea/
+
+# Design QA screenshots + reference captures
+.design-refs/
